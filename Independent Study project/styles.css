@@ -1,0 +1,88 @@
+body {
+    background: white;
+}
+body header {
+    background-color:black;
+    color: white;
+    padding: 40px;
+    margin: 0;
+}
+div {
+    display: inline-block;
+    width:100px;
+    font-family: Arial;
+    background:black;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+    text-decoration: underline;
+    color:red;
+}
+div.home {
+    margin-left:120px;
+    
+}
+div.stats {
+    margin-left:120px;
+    
+}
+div.logo {
+   
+    margin-left: 120px;
+    height: 60px;
+    text-indent: -99999px;
+    background-image: url("images/juve.png");
+    background-size: 100%;
+    position:relative;
+    background-repeat: no-repeat;
+    top:-20px;
+    background-position: center;
+
+}
+div.profile{
+    margin-left:120px;
+    
+}
+div.signout{
+    margin-left:120px;
+    
+}
+
+section.middle{
+    display: flex;
+    flex-direction: row;
+}
+
+table{
+    margin-left: 0;
+    margin-bottom: 20;
+    margin-top:20;
+    float:left;
+    
+}
+tr.header {
+    font-size: 15px;
+
+}
+table, th, td {
+    border: 1px solid black;
+
+  }
+footer {
+    background-color: black;
+}
+img.ronaldo {
+    width: 400px;
+    height:500px;
+    float:right;
+}
+
+img.pele{
+    margin-left: 0;
+    width:320px;
+    height: 500px;
+}
